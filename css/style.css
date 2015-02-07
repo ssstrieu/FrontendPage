@@ -1,0 +1,50 @@
+body{
+background-color: #C5C1D4;
+background-image: url('../img/lilac.jpg');
+color: #5C527A;
+font-size: 16px;
+margin: 0;
+padding:0;
+position:relative;
+}
+
+#nav{
+	background-color: black;
+	opacity: 0.8;
+	width: 100%;
+	height:24px;
+	margin:0;
+	padding:10px;
+}
+
+.nav-items{
+	padding: 0 14px;
+	border-left: 6px solid white;
+}
+
+
+.container{
+color: #C5C1D4;
+
+min-width:400px;
+max-width: 600px;
+height:400px;
+margin: 16px auto;
+background-color: #504C61;
+overflow: hidden;
+padding: 16px;
+opacity: 0.5;
+}
+
+.footer{
+	position: absolute;
+	bottom:20%;
+	left: 20%;
+	padding:0 8px;
+	font-size: 14px;
+
+}
+
+.hide{
+	visibility: none;
+}

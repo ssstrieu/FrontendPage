@@ -1,0 +1,6 @@
+{	
+"name":"potion",
+"description":"heals HP by 10",
+"quantity":1,
+"action":function(){HP+=10;}
+}
