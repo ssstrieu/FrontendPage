@@ -1,45 +1,80 @@
 <!DOCTYPE html>
 <head>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<!--add a cool icon here-->
-	<title>Sam's GitPage!</title>
+	<!--add a cool icon & fonts here-->
+	<title>Sam's DevJourney!</title>
 
-	<div id='nav'>
-		<span id='logo'> L O G O </span>
-		<span class=''>
-		<a href='index.html'><span class='nav-items dropdown'>Home</span></a>
-		<a href='about.html'><span class='nav-items dropdown'>About</span></a>
-		<a href='projects.html'><span class='nav-items dropdown'>Projects</span></a>
-		<a href='resources.html'><span class='nav-items dropdown'>Resources</span></a>
-		<span class='nav-items' >Contact</span>
-	</div>
+	
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">L O G O</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Work<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Web</a></li>
+            <li><a href="#">Art</a></li>
+          </ul>
+        </li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Resources</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 </head>
 
 <body>
 	<div class='container'>
-		<div class='main'>
-			<h1>Welcome to Samantha's GitPage!</h1>
+		<div class='row main'>
+			<h1>Sam's Dev Journey</h1>
 			<p>This is where I host all my finished and in-progress projects on my journey to Web-developerdom!
 			</p>
-
-			<h2>Projects</h2>
-			<h3>Finished</h3>
-				<ul>
-					<li>Stretch Timer [insert link]</li>
-					
-				</ul>
-
-			<h3>In-Progress</h3>
-				<li><a href='railsJS/index.html'>React JS: Todo List</a></li>
-
 		</div>
-		
+		<div class="row row2">
+		  <div class="col-md-6 rowleft">
+		  	<h3>A B O U T | Samantha</h3>
+		  	<IMG SRC='img/sampic.jpg' />
+		  	<h5>Web Developer | Artist | ISFP </h5>
+
+
+
+		  </div>
+		  <div class="col-md-6 rowright">
+		  	<h3>C O N T A C T</h3>
+		  	<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Send me an Email!</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email Address"></input>
+			  </div>
+			  <div class="form-group">
+				<textarea class="form-control" placeholder="Write your message here."></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+
+			</form>
+		  		
+
+
+		  </div>
+		</div>
 
 
 	</div>
-	<div class='footer'>
-			<span>footer text herefooter text herefooter text herefooter text herefooter text here</span>
-	</div>
+	
 
 
 

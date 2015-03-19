@@ -8,32 +8,25 @@ padding:0;
 position:relative;
 }
 
-#nav{
-	background-color: black;
-	opacity: 0.8;
-	width: 100%;
-	height:24px;
-	margin:0;
-	padding:10px;
+.main{
+	color: #C5C1D4;
+	background-color: #504C61;
+	opacity: 0.5;
+	padding: 16px;
+	height: 500px;
+
 }
 
-.nav-items{
-	padding: 0 14px;
-	border-left: 6px solid white;
+.row2{
+	color: #C5C1D4;
+	background-color: #504C61;
+	padding: 16px;
 }
 
-
-.container{
-color: #C5C1D4;
-
-min-width:400px;
-max-width: 600px;
-height:400px;
-margin: 16px auto;
-background-color: #504C61;
-overflow: hidden;
-padding: 16px;
-opacity: 0.5;
+.row2 img{
+	height:200px;
+	width: 200px;
+	border-radius: 100px;
 }
 
 .footer{
