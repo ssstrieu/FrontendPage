@@ -3,6 +3,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<!--add a cool icon & fonts here-->
+	<link href='http://fonts.googleapis.com/css?family=Dosis:300,400|Pacifico' rel='stylesheet' type='text/css'>
 	<title>Sam's DevJourney!</title>
 
 	
@@ -23,14 +24,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Work<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class='glyphicon glyphicon-picture'></span> Portfolio<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Web</a></li>
             <li><a href="#">Art</a></li>
           </ul>
         </li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Resources</a></li>        
+		<li><a href="#"><span class='glyphicon glyphicon-user'></span> About</a></li>
+		<li><a href="#"><span class='glyphicon glyphicon-info-sign'></span> Resources</a></li>        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -38,23 +39,35 @@
 </head>
 
 <body>
-	<div class='container'>
-		<div class='row main'>
-			<h1>Sam's Dev Journey</h1>
+
+	<div class="jumbotron main">
+		<div class="container-fluid">
+    		<h1 class='titleText'>Portfolio Site</h1>
 			<p>This is where I host all my finished and in-progress projects on my journey to Web-developerdom!
 			</p>
+			<p><a class="btn btn-default btn-lg" href="#" role="button">Take a Look!</a></p>
 		</div>
-		<div class="row row2">
-		  <div class="col-md-6 rowleft">
-		  	<h3>A B O U T | Samantha</h3>
-		  	<IMG SRC='img/sampic.jpg' />
-		  	<h5>Web Developer | Artist | ISFP </h5>
+	</div>
 
+	<div class='container-fluid'>
 
-
+		<div class="row">
+		  <div class="col-md-6 about">
+	  		<h2 class='underline'><span class='titleText'>About</span><span class='accentText'>| Samantha </span></h2>
+		  	<IMG id='sam' class='center' SRC='img/sampic.jpg' />
+		  	<h4 class='center'>Web Developer | Artist | ISFP </h4>
+		  	<h2 class='underline'><span class='titleText'>Connect</span></h2>
+		  	<span class='connectBtn center'>
+			  	<A href=''><img src="http://placehold.it/50x50"></a>
+			  	<A href=''><img src="http://placehold.it/50x50"></a>
+			  	<A href=''><img src="http://placehold.it/50x50"></a>
+			  	<A href=''><img src="http://placehold.it/50x50"></a>
+			  	<A href=''><img src="http://placehold.it/50x50"></a>
+		  	</span>
+		  	
 		  </div>
-		  <div class="col-md-6 rowright">
-		  	<h3>C O N T A C T</h3>
+		  <div class="col-md-6 contact">
+		  	<h2 class='underline'><span class='titleText'>Contact</span></h2>
 		  	<form>
 			  <div class="form-group">
 			    <label for="exampleInputEmail1">Send me an Email!</label>
@@ -63,7 +76,7 @@
 			  <div class="form-group">
 				<textarea class="form-control" placeholder="Write your message here."></textarea>
 			  </div>
-			  <button type="submit" class="btn btn-default">Submit</button>
+			  <button type="submit" class="btn btn-default"><span class='glyphicon glyphicon-envelope'></span> Submit</button>
 
 			</form>
 		  		

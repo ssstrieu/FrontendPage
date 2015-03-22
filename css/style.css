@@ -1,42 +1,105 @@
 body{
-background-color: #C5C1D4;
-background-image: url('../img/lilac.jpg');
-color: #5C527A;
+background-color: #EFE7F1;
+color: #D7B377; 
 font-size: 16px;
 margin: 0;
 padding:0;
 position:relative;
 }
 
+.jumbotron{
+	margin-bottom:0;
+}
+.titleText{
+	font-family: 'Pacifico', cursive;
+	margin-right: 12px;
+}
+
+.accentText{
+	font-family: 'Dosis', sans-serif;
+}
+
+
+.center{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.navbar{
+	margin-bottom:0;
+
+}
+
+.navbar-default {
+  background-color: #EFE7F1;
+  border-color: #EFE7F1;
+  color:#D44D5C;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #D44D5C;
+}
+
+.btn-default {
+  color: #D44D5C;
+  background-color: #EFE7F1;
+  border-color: #EFE7F1;
+
+}
 .main{
-	color: #C5C1D4;
-	background-color: #504C61;
-	opacity: 0.5;
-	padding: 16px;
-	height: 500px;
+	color: #D7B377;
+	background-color:#D44D5C;
+	padding: 24px;
+	min-height: 300px;
+
+}
+.main h1{
+	font-size: 300%;
 
 }
 
-.row2{
-	color: #C5C1D4;
-	background-color: #504C61;
-	padding: 16px;
+.row .about{
+	color: #76083B;
+	background-color: #D7B377;
+	padding-bottom: 24px;
+}
+.row .contact{
+	color: #D44D5C;
+	background-color: #563C44;
+	padding-bottom: 24px;
 }
 
-.row2 img{
+#sam{
 	height:200px;
 	width: 200px;
 	border-radius: 100px;
 }
 
-.footer{
-	position: absolute;
-	bottom:20%;
-	left: 20%;
-	padding:0 8px;
-	font-size: 14px;
+.contact .form-control{
+	background-color: #EFE7F1;
+}
+
+
+.underline{
+	width: 100%;
+	border-bottom: 2px dotted #EFE7F1;
+	padding:6px;
 
 }
+
+#cxn>h2{
+	display: inline-block;
+	margin: 10px;
+
+}
+.connectBtn img{
+	height:50px;
+	width:50px;
+	margin:0;
+	padding: 0;
+}
+
 
 .hide{
 	visibility: none;
