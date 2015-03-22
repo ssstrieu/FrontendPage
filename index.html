@@ -2,7 +2,7 @@
 <head>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<!--add a cool icon & fonts here-->
+	<link rel="shortcut icon" type="image/x-icon" href="img/icon.ico" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis:300,400|Pacifico' rel='stylesheet' type='text/css'>
 	<title>Sam's DevJourney!</title>
 
@@ -17,7 +17,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">L O G O</a>
+      <a class="navbar-brand" href="index.html">L O G O</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,12 +26,12 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class='glyphicon glyphicon-picture'></span> Portfolio<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Web</a></li>
+            <li><a href="portfolioWeb.html">Web</a></li>
             <li><a href="#">Art</a></li>
           </ul>
         </li>
-		<li><a href="#"><span class='glyphicon glyphicon-user'></span> About</a></li>
-		<li><a href="#"><span class='glyphicon glyphicon-info-sign'></span> Resources</a></li>        
+		<li><a href="about.html"><span class='glyphicon glyphicon-user'></span> About</a></li>
+		<li><a href="about.html#resoures"><span class='glyphicon glyphicon-info-sign'></span> Resources</a></li>        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -45,49 +45,45 @@
     		<h1 class='titleText'>Portfolio Site</h1>
 			<p>This is where I host all my finished and in-progress projects on my journey to Web-developerdom!
 			</p>
-			<p><a class="btn btn-default btn-lg" href="#" role="button">Take a Look!</a></p>
+			<p><a class="btn btn-default btn-lg topSpace" href="portfolioWeb.html" role="button">Take a Look!</a></p>
 		</div>
 	</div>
 
 	<div class='container-fluid'>
 
 		<div class="row">
-		  <div class="col-md-6 about">
+		  <a href='about.html'><div class="col-md-6 about">
 	  		<h2 class='underline'><span class='titleText'>About</span><span class='accentText'>| Samantha </span></h2>
 		  	<IMG id='sam' class='center' SRC='img/sampic.jpg' />
 		  	<h4 class='center'>Web Developer | Artist | ISFP </h4>
-		  	<h2 class='underline'><span class='titleText'>Connect</span></h2>
-		  	<span class='connectBtn center'>
-			  	<A href=''><img src="http://placehold.it/50x50"></a>
-			  	<A href=''><img src="http://placehold.it/50x50"></a>
-			  	<A href=''><img src="http://placehold.it/50x50"></a>
-			  	<A href=''><img src="http://placehold.it/50x50"></a>
-			  	<A href=''><img src="http://placehold.it/50x50"></a>
-		  	</span>
 		  	
-		  </div>
-		  <div class="col-md-6 contact">
-		  	<h2 class='underline'><span class='titleText'>Contact</span></h2>
-		  	<form>
-			  <div class="form-group">
-			    <label for="exampleInputEmail1">Send me an Email!</label>
-			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email Address"></input>
-			  </div>
-			  <div class="form-group">
-				<textarea class="form-control" placeholder="Write your message here."></textarea>
-			  </div>
-			  <button type="submit" class="btn btn-default"><span class='glyphicon glyphicon-envelope'></span> Submit</button>
+		  </div></a>
+		  	<div class="col-md-6 contact">
+			  	<h2 class='underline'>
+			  		<span class='titleText'>Connect</span>
+			  	</h2>
+			  	<span class='connectBtn center'>
+				  	<A href='http://www.linkedin.com/in/ssstrieu'><img src="img/linkedin.png"></a>
+				  	<A href='http://github.com/ssstrieu'><img src="img/github.png"></a>
+					<A href='http://relearner.tumblr.com'><img src="img/tumblr.png"></a>
+				  	<A href='http://lilgreenhorn.deviantart.com'><img src="img/deviantart.png"></a>
+				  	<A href='http://www.twitter.com/tootrieu'><img src="img/twitter.png"></a>
+			  	</span>
+			  	<form>
+				  <div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email Address"></input>
+				  </div>
+				  <div class="form-group">
+					<textarea class="form-control" placeholder=" I would love to hear from you. Please write your message here!"></textarea>
+				  </div>
+				  <button type="submit" class="btn btn-default"><span class='glyphicon glyphicon-envelope'></span> Submit
+				  </button>
 
-			</form>
-		  		
-
-
-		  </div>
+				</form>
+			</div>
 		</div>
-
-
 	</div>
-	
+</body>
 
 
 

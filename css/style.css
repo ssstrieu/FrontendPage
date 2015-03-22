@@ -19,15 +19,22 @@ position:relative;
 	font-family: 'Dosis', sans-serif;
 }
 
+.connectBtn img{
+	max-width: 50px;
+	max-height: 50px;
+	display: inline-block;
+}
 
-.center{
-	display: block;
-	margin: 0 auto;
-	text-align: center;
+.connectBtn{
+	padding: 7px 0 10px 0;
 }
 
 .navbar{
 	margin-bottom:0;
+
+}
+.topSpace{
+	margin: 10% 0 0 0 ;
 
 }
 
@@ -84,7 +91,6 @@ position:relative;
 .underline{
 	width: 100%;
 	border-bottom: 2px dotted #EFE7F1;
-	padding:6px;
 
 }
 
@@ -103,4 +109,47 @@ position:relative;
 
 .hide{
 	visibility: none;
+}
+
+/*  Gallery code below */
+
+.gallery img{
+	max-width:280px;
+
+
+}
+.gallery-item, .center{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.gallery-item{
+	background-color: #EFE7F1;
+	border: 1px solid white;
+	padding:6px;
+	margin:6px;
+	max-width: 300px;
+	max-height: 400px;
+	overflow: hidden;
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+.floatLeft{
+	float: left;
+
+}
+
+/*Resources code*/
+
+.resources{
+	min-height:400px ;
+
+}
+
+.textBlock{
+	padding: 20px;
+	margin: 12px;
+
 }
