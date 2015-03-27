@@ -19,16 +19,6 @@ position:relative;
 	font-family: 'Dosis', sans-serif;
 }
 
-.connectBtn img{
-	max-width: 50px;
-	max-height: 50px;
-	display: inline-block;
-}
-
-.connectBtn{
-	padding: 7px 0 10px 0;
-}
-
 .navbar{
 	margin-bottom:0;
 
@@ -40,24 +30,23 @@ position:relative;
 
 .navbar-default {
   background-color: #EFE7F1;
-  border-color: #EFE7F1;
-  color:#D44D5C;
+  border-color: #D44D5C;
+  color:#76083B;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
-  color: #D44D5C;
+  color: #76083B;
 }
 
 .btn-default {
   color: #D44D5C;
-  background-color: #EFE7F1;
+  background-color: #fff;
   border-color: #EFE7F1;
 
 }
 .main{
-	color: #D7B377;
-	background-color:#D44D5C;
-	padding: 24px;
+	color: #76083B;
+	background-color:#EFE7F1;
 	min-height: 300px;
 
 }
@@ -65,6 +54,11 @@ position:relative;
 	font-size: 300%;
 
 }
+.quickBlurb .colorFill{
+	background-color: #563C44;
+
+}
+
 
 .row .about{
 	color: #76083B;
@@ -77,6 +71,8 @@ position:relative;
 	padding-bottom: 24px;
 }
 
+
+
 #sam{
 	height:200px;
 	width: 200px;
@@ -84,7 +80,7 @@ position:relative;
 }
 
 .contact .form-control{
-	background-color: #EFE7F1;
+	background-color: #fff;
 }
 
 
@@ -100,23 +96,20 @@ position:relative;
 
 }
 .connectBtn img{
-	height:50px;
-	width:50px;
+	display: inline-block;
+	height:40px;
+	width:40px;
 	margin:0;
 	padding: 0;
 }
 
 
-.hide{
-	visibility: none;
-}
-
 /*  Gallery code below */
 
 .gallery img{
 	max-width:280px;
-
-
+	max-height: 300px;
+	
 }
 .gallery-item, .center{
 	display: block;
@@ -126,18 +119,39 @@ position:relative;
 
 .gallery-item{
 	background-color: #EFE7F1;
-	border: 1px solid white;
 	padding:6px;
 	margin:6px;
-	max-width: 300px;
-	max-height: 400px;
+	width: 300px;
+	height: 400px;
 	overflow: hidden;
-	border-radius: 50px;
-	margin: 0 auto;
+	margin: 16px;
+	box-shadow: 4px 4px 4px #ccc3c3;
+}
+.gallery .entryTitle{
+	font-style: bold;
+	font-size: 120%;
+	color: #76083B;
+	text-align: left;
+}
+.gallery p{
+	color: ;
+	padding:14px;
+	text-align: left;
+
 }
 
 .floatLeft{
 	float: left;
+}
+
+
+.stats{
+	background-color: #D44D5C;
+	color: #D7B377;
+}
+
+.aboutPage .colorFill{
+	background-color: #D44D5C;
 
 }
 
@@ -145,11 +159,15 @@ position:relative;
 
 .resources{
 	min-height:400px ;
-
+	background-color : #EFE7F1;
+	color: #563C44 ;
+	padding: 24px;
 }
 
 .textBlock{
-	padding: 20px;
 	margin: 12px;
+}
+
+.resources a, .resources a:hover, .resources a:visited {
 
 }
