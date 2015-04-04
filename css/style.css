@@ -6,6 +6,28 @@ margin: 0;
 padding:0;
 position:relative;
 }
+#mainBanner{
+	background: url(../img/chevron.png);
+
+}
+
+.main h1{
+text-shadow:
+    3px 3px 0 #fff,
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+   -1px  1px 0 #fff,
+    1px  1px 0 #fff;
+
+}
+.main p{
+text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+   -1px  1px 0 #fff,
+    1px  1px 0 #fff;
+
+}
 
 .jumbotron{
 	margin-bottom:0;
@@ -30,7 +52,7 @@ position:relative;
 
 .navbar-default {
   background-color: #EFE7F1;
-  border-color: #D44D5C;
+  border-color: #ccc;
   color:#76083B;
 }
 
@@ -64,6 +86,7 @@ position:relative;
 	color: #76083B;
 	background-color: #D7B377;
 	padding-bottom: 24px;
+
 }
 .row .contact{
 	color: #D44D5C;
@@ -99,33 +122,56 @@ position:relative;
 	display: inline-block;
 	height:40px;
 	width:40px;
-	margin:0;
+	margin:0 0 10px 0;
 	padding: 0;
 }
 
 
-/*  Gallery code below */
+/*  portfolio code below */
+.portfolioMain{
+	background: url(../img/paper2.jpg);
+	background-color: black;
+	/*background-size: 300px auto;
+    background-repeat: no-repeat;*/
+}
 
-.gallery img{
+
+.gallery-item img{
+	display: block;
 	max-width:280px;
 	max-height: 300px;
+	width: auto;
+	height:auto;
+	padding:0 auto;
+
 	
 }
 .gallery-item, .center{
 	display: block;
 	margin: 0 auto;
 	text-align: center;
+
+}
+
+.gratitudeLog .3-28-2015{
+	Excited to TA at RailsBridge;
+	Angel is awesomesauce;
+	Jing is sleeping over this week!;
+		Melanie and Emily too!;
+	ResonateGirls hangout time tonite;
+	Rosy got into HB!!!!;	
 }
 
 .gallery-item{
 	background-color: #EFE7F1;
-	padding:6px;
+	padding:8px;
 	margin:6px;
 	width: 300px;
 	height: 400px;
 	overflow: hidden;
 	margin: 16px;
-	box-shadow: 4px 4px 4px #ccc3c3;
+	box-shadow: 4px 4px 4px #ccc;
+	border-radius: 12px;
 }
 .gallery .entryTitle{
 	font-style: bold;
@@ -154,7 +200,21 @@ position:relative;
 	background-color: #D44D5C;
 
 }
+.row .about p{
+	color:#76083B;
+}
 
+.row .about{
+	color: #76083B;
+	background-color: #D7B377;
+	padding-bottom: 24px;
+
+}
+.row .contact{
+	color: #D44D5C;
+	background-color: #563C44;
+	padding-bottom: 24px;
+}
 /*Resources code*/
 
 .resources{
